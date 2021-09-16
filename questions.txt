@@ -1,0 +1,9 @@
+Question 1: We initialize a TCP socket with the method socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+Question 2: A client socket is returned when we accept a connection, and it allows us to send/receive messages to/from the application that initiated 
+communication to the server. We can also create a client socket in the client application to connect to a server that is running. The server socket is 
+what we bind to a port so that so that the server can listen for client requests to connect. 
+Question 3: We pass in the option socket.SO_REUSEADDR into the method socket.setsockopt(...)
+Question 4: We get the IP address and port of the incoming connection
+Question 5: The data that was sent by the client is returned by recv(). The server reads the text that was 
+sent by calling recv(), then sends it back to the client, who receives the data similarily by calling recv()
+Question 6: https://github.com/debecerra/cmput404-lab2
