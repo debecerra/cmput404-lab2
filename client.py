@@ -1,3 +1,7 @@
+""" All code in this file obtained from lab.
+Zoe Riell, CMPUT 404 Lab 2, Remote Synchronous Lab, 2021-09-15, Public Domain
+"""
+
 #!/usr/bin/env python3
 import socket, sys
 
